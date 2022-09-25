@@ -5,8 +5,7 @@ const Contact = () => {
     <Container>
       <ContactForm action="https://formsubmit.co/57967f0276b9450e9949fa16d096dcdc" method="POST">
         <Input required type={"hidden"} name="_subject" value={"S3Web - Formulário do site"} />
-        <Input required type={"hidden"} name="_captcha" />
-        <Input required type={"text"} name="_honey" style={{display: 'none'}} />
+        <Input required type={"hidden"} name="_captcha" value={"false"} />
 
         <Input required type={"text"} name="Nome" placeholder="Seu nome..." />
         <Input required type={"email"} name="Email" placeholder="Seu e-mail..." />
