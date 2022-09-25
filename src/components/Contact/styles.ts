@@ -25,6 +25,9 @@ export const ContactForm = styled.form`
   @media (max-width: 800px) {
     padding: 1rem;
   }
+  &:invalid button {
+    background: #D3D3D3;
+  }
 `
 
 export const Input = styled.input`
